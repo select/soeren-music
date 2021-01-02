@@ -44,7 +44,7 @@
 		"eslint-config-prettier": "^7.1.0",
 		"eslint-plugin-nuxt": "^2.0.0",
 		"eslint-plugin-prettier": "^3.3.0",
-		"eslint-plugin-vue": "^7.1.0",
+		"eslint-plugin-vue": "^7.4.0",
 		"fuse.js": "^6.4.5",
 		"git-cz": "^4.7.6",
 		"husky": "^4.3.6",
