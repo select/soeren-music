@@ -1,0 +1,160 @@
+// # section
+// - max w 1400
+// - margin x 6%
+// - 3col
+
+* {
+	box-sizing: border-box;
+}
+
+// ------------------------------------------
+
+$color-persian-plum: #601e1f;
+$color-tabasco: #ab3315;
+$color-casablanca: #f9b25d;
+
+$color-pomegranate: #ef3226;
+$color-tango: #f47026;
+$color-froly: #f68174;
+
+$color-madison: #0d375e;
+$color-eden: #0d3d4e;
+$color-picton-blue: #4ebdef;
+
+$color-birch: #453b28;
+$color-barley-corn: #a49561;
+$color-straw: #d8c78f;
+
+// Background colors
+$color-outdoor: #023040;
+$color-nighttime: #0d375e;
+$color-daytime: #362c1c;
+
+// Evgenis colors
+$color-mandys-pink: #f5cfbe;
+$color-anakiwa: #8df2ff;
+
+.padding-header {
+	padding-top: 10rem;
+}
+
+// Import Bulma's core
+@import '~bulma/sass/utilities/_all';
+
+// Set your colors
+$primary: $color-straw;
+$primary-dark: $color-barley-corn;
+$link: $color-tango;
+
+:root {
+	--color-primary: #{$primary};
+	--color-primary-dark: #{$primary-dark};
+	--color-persian-plum: #{$color-persian-plum};
+	--color-tabasco: #{$color-tabasco};
+	--color-casablanca: #{$color-casablanca};
+
+	--color-pomegranate: #{$color-pomegranate};
+	--color-tango: #{$color-tango};
+	--color-froly: #{$color-froly};
+
+	--color-madison: #{$color-madison};
+	--color-eden: #{$color-eden};
+	--color-picton-blue: #{$color-picton-blue};
+
+	--color-birch: #{$color-birch};
+	--color-barley-corn: #{$color-barley-corn};
+	--color-straw: #{$color-straw};
+
+	--color-outdoor: #{$color-outdoor};
+	--color-nighttime: #{$color-nighttime};
+	--color-daytime: #{$color-daytime};
+
+	--color-mandys-pink: #{$color-mandys-pink};
+	--color-anakiwa: #{$color-anakiwa};
+}
+
+// Setup $colors to use as bulma classes (e.g. 'is-twitter')
+$colors: mergeColorMaps(
+	(
+		'primary': (
+			$primary,
+			$primary-invert,
+			$primary-light,
+			$primary-dark,
+		),
+		'link': (
+			$link,
+			$link-invert,
+			$link-light,
+			$link-dark,
+		),
+	),
+	$custom-colors
+);
+
+$scheme-main: $color-outdoor;
+$scheme-main-bis: $color-daytime;
+$scheme-main-ter: $color-daytime;
+$scheme-invert: $white;
+$scheme-invert-bis: $white-bis;
+$scheme-invert-ter: $white-ter;
+
+$text: $white-bis;
+$text-light: $grey-lightest;
+$text-strong: $white;
+
+$link: $primary;
+$link-hover: $primary-dark;
+
+$input-placeholder-color: $grey-light;
+$input-background-color: rgba(0, 0, 0, 0.2);
+$input-color: white;
+$input-border-color: transparent;
+
+$title-weight: $weight-light;
+$footer-padding: 0;
+
+@font-face {
+	font-family: 'TTNorms-Regular';
+	src: url('/fonts/TTNorms-Regular.otf') format('opentype');
+}
+$family-sans-serif: 'TTNorms-Regular';
+$family-primary: $family-sans-serif; // 	font-family 	$family-sans-serif 	BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+// $family-secondary 	font-family 	$family-sans-serif 	BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+
+// $family-primary 	font-family 	$family-sans-serif 	BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+// $family-secondary 	font-family 	$family-sans-serif 	BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+
+// Import Bulma and Buefy styles
+@import '~bulma';
+@import '~buefy/src/scss/buefy';
+
+html {
+	font-size: 16px;
+	@include tablet {
+		font-size: 16px;
+	}
+	@include desktop {
+		font-size: 18px;
+	}
+	scroll-behavior: smooth;
+}
+
+h1 {
+	font-size: $title-size;
+}
+p {
+	margin: 0.5rem 0;
+}
+.title {
+	text-transform: uppercase;
+}
+* {
+	box-sizing: border-box;
+}
+
+.mood-image {
+	width: 100vw;
+	height: 100vh;
+	object-fit: cover;
+}

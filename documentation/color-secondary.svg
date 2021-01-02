@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg937">
+  <defs
+     id="defs931" />
+  <metadata
+     id="metadata934">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1">
+    <path
+       d="M 51.734889,94.091854 H 79.467808 V 66.358935 H 51.734889 Z"
+       style="fill:#601e1f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352777"
+       id="path12" />
+    <path
+       d="M 51.734889,134.18928 H 79.467808 V 106.45636 H 51.734889 Z"
+       style="fill:#ef3226;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352777"
+       id="path14" />
+    <path
+       d="M 51.734889,174.28636 H 79.467808 V 146.55344 H 51.734889 Z"
+       style="fill:#0d3d4e;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352777"
+       id="path16" />
+    <path
+       d="M 51.734889,213.34345 H 79.467808 V 185.61053 H 51.734889 Z"
+       style="fill:#453b28;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352777"
+       id="path18" />
+    <path
+       d="M 88.943066,94.091854 H 116.67598 V 66.358935 H 88.943066 Z"
+       style="fill:#ab3315;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352777"
+       id="path20" />
+    <path
+       d="M 88.943066,134.18928 H 116.67598 V 106.45636 H 88.943066 Z"
+       style="fill:#f47026;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352777"
+       id="path22" />
+    <path
+       d="M 88.943066,174.28636 H 116.67598 V 146.55344 H 88.943066 Z"
+       style="fill:#0d375e;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352777"
+       id="path24" />
+    <path
+       d="M 88.943066,213.34345 H 116.67598 V 185.61053 H 88.943066 Z"
+       style="fill:#a49561;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352777"
+       id="path26" />
+    <path
+       d="m 126.15124,94.091854 h 27.73292 V 66.358935 h -27.73292 z"
+       style="fill:#f68174;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352777"
+       id="path28" />
+    <path
+       d="m 126.15124,134.18928 h 27.73292 v -27.73292 h -27.73292 z"
+       style="fill:#f9b25d;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352777"
+       id="path30" />
+    <path
+       d="m 126.15124,174.28636 h 27.73292 v -27.73292 h -27.73292 z"
+       style="fill:#4ebdef;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352777"
+       id="path32" />
+    <path
+       d="m 126.15124,213.34345 h 27.73292 v -27.73292 h -27.73292 z"
+       style="fill:#d8c78f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352777"
+       id="path34" />
+  </g>
+</svg>
