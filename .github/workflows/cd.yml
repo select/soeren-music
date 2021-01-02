@@ -26,7 +26,7 @@ jobs:
         port: ${{ secrets.SSH_PORT }}
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         source: 'dist'
-        target: "~/www"
+        target: "~/"
     # - name: send message to matrix
     #   uses: s3krit/matrix-message-action@v0.0.3
     #   with:
