@@ -63,5 +63,4 @@ footer
 	background: rgb(182,174,130)
 	background: linear-gradient(135deg, rgba(182,174,130,1) 0%, rgba(152,145,104,1) 100%)
 	background-color: transparent
-v::deep
 </style>
