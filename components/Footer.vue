@@ -57,7 +57,7 @@ export default {
 
 <style lang="sass" scoped>
 .title
-	font-size: 5rem
+	font-size: 4rem
 	hyphens: auto
 footer
 	background: rgb(182,174,130)

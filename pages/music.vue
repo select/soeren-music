@@ -7,7 +7,9 @@
 				class="music__album columns"
 			>
 				<div class="column">
-					<h2 v-if="index == 0" class="title">Mu<wbr />sic</h2>
+					<h2 v-if="index == 0" class="title has-text-weight-light">
+						Mu<wbr />sic
+					</h2>
 					<nuxt-content :document="album" />
 					<b-button v-if="index == 0" type="is-primary" class="my-4"
 						>Discover More Music</b-button
@@ -59,7 +61,7 @@ export default {
 .music__album
 	min-height: 60vh
 .album__title
-	width: 3rem
+	width: 4.5rem
 	position: relative
 	>div
 		transform: rotate(90deg)
@@ -67,7 +69,7 @@ export default {
 		white-space: nowrap
 		position: absolute
 		top: 0
-		left: 3rem
+		left: 4rem
 .album-data
 	display: flex
 	div:last-child
