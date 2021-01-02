@@ -1,4 +1,4 @@
-name: Continuous Deployment to demo.coverz.com
+name: Continuous Deployment to www.soeren-music.com
 
 on:
   push:
