@@ -16,5 +16,8 @@ $ npm run start
 # generate static project
 $ npm run generate
 ```
-
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+## Deployment
+The continous integration will run when you push to the `production` branch.
+
