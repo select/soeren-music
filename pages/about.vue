@@ -5,7 +5,7 @@
 			<section id="main-1" class="about-text padding-header mb-6">
 				<h1 class="title mb-4">About</h1>
 				<nuxt-content :document="intro" />
-				<b-button type="is-primary" tag="a" href="#continue"
+				<b-button class="mt-4" type="is-primary" tag="a" href="#continue"
 					>Mehr lesen</b-button
 				>
 			</section>

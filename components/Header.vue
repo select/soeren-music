@@ -3,7 +3,7 @@
 		<b-navbar class="sm-section-wrapper">
 			<template slot="brand">
 				<b-navbar-item tag="NuxtLink" to="/">
-					<Logo ref="logo" class="logo" />
+					<Logo ref="logo" class="logo my-3" />
 				</b-navbar-item>
 			</template>
 			<template slot="start">
