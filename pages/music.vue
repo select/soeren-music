@@ -7,9 +7,7 @@
 				class="music__album columns"
 			>
 				<div class="column">
-					<h2 v-if="index == 0" class="title has-text-weight-light">
-						Mu<wbr />sic
-					</h2>
+					<h2 v-if="index == 0" class="title">Mu<wbr />sic</h2>
 					<nuxt-content :document="album" />
 					<b-button v-if="index == 0" type="is-primary" class="my-4"
 						>Discover More Music</b-button
