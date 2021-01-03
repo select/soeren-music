@@ -4,28 +4,11 @@ image: img/Soren with guitar live.jpg
 imageStyle:  "transform: scaleX(-1)"
 ---
 
-# Header Textssdlfkdf
+# SERVING LIFE
 
-## Sub heraderhhhfgfgfgvfdvfdvfd
+## Dem Leben dienlich sein
 
 
-Adipisicing duis cillum eiusmod non laboris dolore proident labore dolor
-fugiat aliquip ad deseruntkkk magna est reprehenderit elit aliquip sint
-dolore commodo dolore dolore ad magna culpa in ut tempor ut tempor tempor
-aliquip proident sed in officia eu irure qui fugiat qui exercitation
-veniam elit reprehenderit mollit commodo pariatur do id eiusmod in
-consequat laboris in incididunt sint excepteur nulla sit ut deserunt
-incididunt do officia velit anim est fugiat duis ea mollit id in in
-
-A link [in the](http://rockdapus.org) text
-
-consequat est sit commodo eiusmod do in ad non fugiat magna ullamco duis
-voluptate minim aute dolore excepteur deserunt aliquip exercitation ad qui
-id dolore nisi non eu dolor minim in do adipisicing elit elit et dolore ex
-reprehenderit nostrud anim esse dolore anim dolore in in sint nostrud elit
-dolore ea dolore duis nostrud sit est culpa laborum labore dolore est.
-
-- this
-- is 
-- a 
-- list
+"Wir alle leben in unserer eigenen inneren Wirklichkeit, was für den einen wahr ist, ist für den anderen falsch. Unsere Aufgabe ist es zusammen die äußere Realität gemeinsam zu gestalten und uns darin vertrauensvoll zu begegnen. Dieses Vertrauen ist die Essenz meiner Musik und begleitet mich in allen Facetten meines Lebens. 
+Dem Leben dienlich sein heißt auch Ambivalenz und Paradoxie zu akzeptieren und sich damit ehrlich zu befassen. 
+Jeder Mensch ist alle Mühe dieser Erde wert, auch wenn seine Entwicklung Kraft kostet. Meine Musik ist für die Menschen, die an ein Miteinander glauben und das Gute im Menschen sehen ohne blind für unser aller Schwächen zu sein. Die nicht stumm sind, wenn Ungerechtigkeit passiert und ihre Stimme dem Engagement für eine bessere Gesellschaft schenken. Die auch nicht taub sind gegenüber Kritik oder der Bitte um Hilfe. Ich glaube, dass jeder Mensch eine persönliche Verantwortung gegenüber dem Leben hat. Für euch singe ich meine Lieder!"
