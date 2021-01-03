@@ -1,1 +1,6 @@
-A couple of words on how to write you an inquirey or just a message. Maybe how soon the visitior should wait for the reply. Also a phone number can be mentioned here. 
+Für Anfragen oder Bestellungen füllt einfach das Kontaktformular aus. 
+
+Ihr könnt auch direkt eine E-Mail an info@soeren-music.com oder booking@soeren-music.com schreiben 
+oder über Instagram und Facebook Kontakt aufnehmen.
+
+ Ihr erhaltet dann in den nächsten Tagen auf jeden Fall eine Antwort.
