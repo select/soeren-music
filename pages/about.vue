@@ -1,6 +1,6 @@
 <template>
 	<div class="about">
-		<img src="img/Wiese.jpg" alt="" />
+		<img src="/img/Wiese.jpg" alt="" />
 		<section id="main-1" class="about-text padding-header mb-6">
 			<h1 class="title mb-4">About</h1>
 			<nuxt-content :document="content" />
