@@ -5,11 +5,7 @@
 				<h1 id="contact" class="title is-uppercase has-text-weight-light">
 					Kon<wbr />takt
 				</h1>
-				<p>
-					A couple of words on how to write you an inquirey or just a message.
-					Maybe how soon the visitior should wait for the reply. Also a phone
-					number can be mentioned here.
-				</p>
+				<nuxt-content :document="contactText" />
 				<div class="columns mt-6 has-text-weight-bold">
 					<a
 						v-for="item in menuItems"
@@ -47,10 +43,12 @@ export default {
 	data() {
 		return {
 			menuItems: [],
+			contactText: '',
 		}
 	},
 	async fetch() {
-		this.menuItems = (await this.$content('footer-links').fetch()).body
+		this.menuItems = (await this.$content('contact-links').fetch()).body
+		this.contactText = await this.$content('contact').fetch()
 	},
 }
 </script>
