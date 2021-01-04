@@ -2,7 +2,7 @@ name: Continuous Deployment to www.soeren-music.com
 
 on:
   push:
-    branches: production
+    branches: main
 
 jobs:
   deploy_job:
