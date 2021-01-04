@@ -5,15 +5,20 @@
 				<h1 class="title is-hidden-tablet">Shop</h1>
 				<ul class="product">
 					<li v-for="product in products" :key="product.name" class="my-6">
-						<img :src="product.img" :alt="product.imgAlt" class="mr-6" />
-						<div>
-							<div class="product_title">
-								<h3 class="is-size-4 has-text-weight-bold">
-									{{ product.name }}
-								</h3>
-								<div class="price">{{ product.price }}</div>
+						<div class="columns">
+							<div class="column">
+								<img :src="product.img" :alt="product.imgAlt" class="mr-6" />
 							</div>
-							<nuxt-content :document="product" />
+
+							<div class="column">
+								<div class="product_title">
+									<h3 class="is-size-4 has-text-weight-bold">
+										{{ product.name }}
+									</h3>
+									<div class="price">{{ product.price }}</div>
+								</div>
+								<nuxt-content :document="product" />
+							</div>
 						</div>
 					</li>
 				</ul>
@@ -23,7 +28,7 @@
 				<nuxt-content :document="info" />
 				<b-button type="is-primary" class="mt-6">Jetzt bestellen</b-button>
 			</div>
-			<div class="column">
+			<div class="column mb-6">
 				<nuxt-content :document="delivery" />
 			</div>
 		</div>
