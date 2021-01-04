@@ -4,41 +4,43 @@
 			<div class="column is-half">
 				<h1 class="title is-hidden-tablet">Shop</h1>
 				<ul class="product">
-					<li v-for="i in [1, 2, 3]" :key="i" class="my-6">
-						<img src="/img/TitelDigiPack.jpg" alt="" class="mr-6" />
+					<li v-for="product in products" :key="product.name" class="my-6">
+						<img :src="product.img" :alt="product.imgAlt" class="mr-6" />
 						<div>
 							<div class="product_title">
-								<h3 class="is-size-4 has-text-weight-bold">Velit culpa.</h3>
-								<div class="price">32€</div>
+								<h3 class="is-size-4 has-text-weight-bold">
+									{{ product.name }}
+								</h3>
+								<div class="price">{{ product.price }}</div>
 							</div>
-							<p>
-								Eiusmod fugiat labore est tempor minim aute cillum commodo duis
-								labore reprehenderit tempor reprehenderit exercitation eiusmod
-								laboris occaecat proident non.
-							</p>
+							<nuxt-content :document="product" />
 						</div>
 					</li>
 				</ul>
 			</div>
 			<div class="column">
 				<h1 class="title is-hidden-mobile">Shop</h1>
-				<p>
-					Lorem ipsum deserunt sint amet cillum ut incididunt magna magna eu
-					nostrud in occaecat ex qui proident nulla sed incididunt elit dolor
-					duis nostrud.
-				</p>
+				<nuxt-content :document="info" />
 				<b-button type="is-primary" class="mt-6">Jetzt bestellen</b-button>
 			</div>
 			<div class="column">
-				<p>
-					DHL Sed nisi dolor ex ut aute culpa amet incididunt incididunt commodo
-					eu mollit ad dolore laborum occaecat consectetur aliqua sint in
-					officia irure ut magna dolor deserunt culpa.
-				</p>
+				<nuxt-content :document="delivery" />
 			</div>
 		</div>
 	</Container>
 </template>
+
+<script>
+export default {
+	async asyncData({ $content, params }) {
+		const products = await $content('products').fetch()
+		const info = await $content('shop-info').fetch()
+		const delivery = await $content('shop-delivery').fetch()
+		return { products, info, delivery }
+	},
+}
+</script>
+
 <style lang="sass">
 .shop
 	background: rgb(20,59,97)
