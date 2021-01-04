@@ -9,11 +9,7 @@
 				/>
 				<div class="column">
 					<h1 class="title">Live</h1>
-					<p>
-						Dolore ut laboris ad esse velit eiusmod ea dolor voluptate cupidatat
-						nulla amet nisi laboris adipisicing irure magna magna cupidatat sit
-						cupidatat id veniam cupidatat in aliqua nulla.
-					</p>
+					<nuxt-content :document="content" />
 					<b-button type="is-primary">Alle Konzerte ansehen</b-button>
 				</div>
 				<div class="concert column is-half">
@@ -48,13 +44,14 @@ import 'dayjs/locale/de'
 dayjs.locale('de')
 export default {
 	async asyncData({ $content, params }) {
+		const content = await $content('live').fetch()
 		const _concerts = (await $content('concerts').fetch()).body
 		const concerts = _concerts.map((item) =>
 			Object.assign(item, {
 				dateHuman: dayjs(item.date).format('DD. MMMM YYYY'),
 			})
 		)
-		return { concerts }
+		return { concerts, content }
 	},
 }
 </script>
