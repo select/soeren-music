@@ -17,17 +17,17 @@
 					<b-button type="is-primary">Alle Konzerte ansehen</b-button>
 				</div>
 				<div class="concert column is-half">
-					<div v-for="i in [1, 2, 3]" :key="i" class="my-6">
+					<div v-for="concert in concerts" :key="concert.name" class="my-6">
 						<div class="concert_title">
-							<h3 class="is-size-4 has-text-weight-bold">Velit culpa.</h3>
+							<h3 class="is-size-4 has-text-weight-bold">
+								{{ concert.place }}
+							</h3>
 							<div class="concert_datetime has-text-primary">
-								12. Dec, 18:00
+								{{ concert.dateHuman }}
 							</div>
 						</div>
 						<p>
-							Eiusmod fugiat labore est tempor minim aute cillum commodo duis
-							labore reprehenderit tempor reprehenderit exercitation eiusmod
-							laboris occaecat proident non.
+							{{ concert.name }}
 						</p>
 					</div>
 				</div>
@@ -41,6 +41,24 @@
 		/>
 	</div>
 </template>
+
+<script>
+import dayjs from 'dayjs'
+import 'dayjs/locale/de'
+dayjs.locale('de')
+export default {
+	async asyncData({ $content, params }) {
+		const _concerts = (await $content('concerts').fetch()).body
+		const concerts = _concerts.map((item) =>
+			Object.assign(item, {
+				dateHuman: dayjs(item.date).format('DD. MMMM YYYY'),
+			})
+		)
+		return { concerts }
+	},
+}
+</script>
+
 <style lang="sass">
 .live
 	background: rgb(157,41,62)
@@ -62,4 +80,5 @@
 .concert_title
 	display: flex
 	justify-content: space-between
+	white-space: nowrap
 </style>
