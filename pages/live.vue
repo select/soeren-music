@@ -77,5 +77,6 @@ export default {
 .concert_title
 	display: flex
 	justify-content: space-between
+.concert_datetime
 	white-space: nowrap
 </style>
