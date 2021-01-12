@@ -6,10 +6,10 @@
 					<Logo ref="logo" class="logo my-3" />
 				</b-navbar-item>
 			</template>
-			<template slot="start">
+			<!-- <template slot="start">
 				<b-button type="is-text">DE</b-button>
 				<b-button type="is-text">EN</b-button>
-			</template>
+			</template> -->
 			<template slot="end">
 				<b-navbar-item
 					v-for="(item, index) of menuItems"
