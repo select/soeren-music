@@ -10,7 +10,9 @@
 				<div class="column">
 					<h1 class="title">Live</h1>
 					<nuxt-content :document="content" />
-					<b-button type="is-primary">Alle Konzerte ansehen</b-button>
+					<b-button type="is-primary" class="mt-3"
+						>Alle Konzerte ansehen</b-button
+					>
 				</div>
 				<div class="concert column is-half">
 					<div v-for="concert in concerts" :key="concert.name" class="my-6">
@@ -18,7 +20,7 @@
 							<h3 class="is-size-4 has-text-weight-bold">
 								{{ concert.place }}
 							</h3>
-							<div class="concert_datetime has-text-primary">
+							<div class="concert_datetime has-text-primary pl-3">
 								{{ concert.dateHuman }}
 							</div>
 						</div>
