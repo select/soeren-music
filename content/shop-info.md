@@ -1,1 +1,1 @@
-Some text here about the ordering process. Officia quis irure officia fugiat pariatur proident esse cupidatat qui sunt tempor sint consequat sint velit aliquip.
+Bei Interesse an einem Produkt, bitte eine E-Mail mit Produktname und Anzahl zusenden. Aufgrund geringer Stückzahl und fehlenden Lagerkapazitäten ist ein direkter Austausch per Mail derzeit noch unumgänglich. 
